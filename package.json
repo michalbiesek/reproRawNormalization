@@ -1,0 +1,29 @@
+{
+    "name": "reproRawNormalization",
+    "version": "1.0.0",
+    "description": "Reproduction test",
+    "main": "dist/example.js",
+    "scripts": {
+      "build": "tsc",
+      "start": "node dist/example.js",
+      "dev": "ts-node example.ts",
+      "test": "npm run dev",
+      "example": "ts-node example.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cribl-control-plane": "0.4.0-beta.18"
+    },
+    "engines": {
+      "node": "22.21.1"
+    },
+    "devDependencies": {
+      "@types/node": "^20.0.0",
+      "ts-node": "^10.9.0",
+      "typescript": "^5.0.0"
+    }
+  }
+  
+  
